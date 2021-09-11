@@ -1,0 +1,10 @@
+#hero1{
+    background: rgb(0,53,60);
+    background: linear-gradient(130deg, rgba(0,53,60,1) 0%, rgba(44,142,132,1) 50%, rgba(255,253,157,1) 100%);
+
+}
+
+:root{
+    
+   font-family: Georgia, 'Times New Roman', Times, serif;
+}
