@@ -6,12 +6,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="Maddie O'Connor is a creative professional">
     <meta name="author" content="Maddie O'Connor">
+    <meta property="og:title" content="">
+    <meta property="og:type" content="">
+    <meta property="og:url" content="">
+    <meta property="og:image" content=""> 
+    
+    <title>Web & Graphic Design by Maddie O'Connor</title>
 
     <!-- Bootstrap CSS -->
     <!--link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous"-->
    <!--My  CSS & JS-->
     <link href="assets/css/style.css" rel="stylesheet">
-    <title>Hello, world!</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Cutive+Mono&family=Libre+Baskerville&display=swap" rel="stylesheet"> 
   </head>
   <body>
       
@@ -51,7 +58,7 @@
             <a id="top"></a>
     
     </div>
-    <main class="container">
+    <main itemscope="" itemtype="http://schema.org/Person" class="">
         <div class="p-4 p-md-5 mb-4 rounded"id="hero1">
           <div class="col-md-6  overlay-bg-readability">
             <h1 class="heading-main">About Me</h1>
@@ -59,7 +66,124 @@
             <p class="lead mb-0"><a href="#" class="text-white fw-bold">Continue reading...</a></p>
           </div>
         </div>
+        <article class="">
+          <h2>Madeline (Maddie) R. O'Connor</h2>
+          <section id="about">
+            <img itemprop="image" src="assets/img/maddie-studio-400px.jpg" alt="Your Name"><h2>About Me</h2>
+            <p itemprop="description"> Born and raised in Little Rock, Arkansas, I'm a web and graphic designer and developer with a fine art background. My first passion will always be sewing, fiber arts, and textiles, but I've fallen in love with the possibilities the digital world opens up. I have experience in content management, photography, coding, and graphic design.  </p>
+            <dl>
+              <dt>Name</dt>
+              <dd itemprop="name">
+                <span itemprop="givenName">Maddie </span> <span itemprop="familyName">O'Connor</span>
+              </dd>
+              <dt>Date of birth</dt>
+              <dd itemprop="birthDate"><time datetime="19995-11-27">11/27/1995</time></dd>
+              <dt>Nationality</dt>
+              <dd itemprop="nationality">United States</dd>
+              <dt>Location</dt>
+              <dd itemprop="homeLocation">Arkansas</dd>
+              <dt>Telephone</dt>
+              <dd>
+                <a itemprop="telephone" href="tel:555.555.5555">501.516.0295</a>
+              </dd>
+              <dt>Email</dt>
+              <dd>
+                <a itemprop="email" href="mailto:contact@maddieoconnor.com">contact@maddieoconnor.com</a>
+              </dd>
+              <dt>Address</dt>
       
+              <dd itemprop="address" itemscope="" itemtype="http://schema.org/PostalAddress">
+                <span itemprop="streetAddress">2801 South University</span>
+                <span itemprop="addressLocality">Little Rock</span>
+                <span itemprop="postalCode">72204</span>
+                <span itemprop="addressCountry">USA</span>
+              </dd>
+      
+            </dl>
+            
+          </section>
+          <section id="skills">
+            <h2>Skills</h2>
+            <ul>
+              <li class="skill">HTML</li>
+              <li class="skill">PHP</li>
+              <li class="skill">Java</li>
+              <li class="skill">Scss</li>
+            </ul>
+          </section>
+          <section id="experience">
+            <h2>Experience</h2>
+            <!-- current job -->
+            <article class="job">
+              <h3 itemprop="jobTitle">Content Manager</h3>
+              <div itemprop="worksFor" itemscope="" itemtype="http://schema.org/Organization">
+                <span itemprop="name">Tekkii Web Services</span>
+                <span>February 2010 - Present</span>
+                <p itemprop="description">Wrote and edited content for small business clientsâ€™ blogs. Responsible for image editing and optimization, as well as some original photography and videography. Point of contact for existing clients. Wrote documentation for onboarding clients. </p>
+                <span itemprop="location" itemscope="" itemtype="http://schema.org/Place">
+                <a itemprop="url" href="http://link-to-company.com">Company URL</a>
+                <span itemprop="address" itemscope="" itemtype="http://schema.org/PostalAddress">
+                <span itemprop="addressLocality">Lenexa, KS</span>
+                </span>
+                </span>
+              </div>
+            
+            <!-- Previous Jobs - Notice Slightly Different Format-->
+            <article class="job" itemscope="" itemtype="http://schema.org/Event/Job">
+              <h3 itemprop="name">Senior Developer</h3>
+                <span itemprop="location" itemscope="" itemtype="http://schema.org/Place">
+                <span itemprop="name">Company Name 2</span>
+                <a itemprop="url" href="http://link-to-company.com">Company URL</a>
+                <span itemprop="address" itemscope="" itemtype="http://schema.org/PostalAddress">
+                  <span itemprop="addressLocality">Anywhere,USA</span>
+                </span>
+                </span>
+                <span itemprop="startDate" content="2006-02-21T20:00">February 2006</span>
+                <span itemprop="endDate" content="2009-02-21T20:00">February 2009</span>
+              <p itemprop="description">Lorem ipsum dolor sit amet, consectetuer adipiscing elit...</p>
+            </article>
+            <article class="job" itemscope="" itemtype="http://schema.org/Event/Job">
+              <h3 itemprop="name">Web Developer</h3>
+                <span itemprop="location" itemscope="" itemtype="http://schema.org/Place">
+                <span itemprop="name">Company Name 2</span>
+                <a itemprop="url" href="http://link-to-company.com">Company URL</a>
+                <span itemprop="address" itemscope="" itemtype="http://schema.org/PostalAddress">
+                  <span itemprop="addressLocality">Anywhere, USA</span>
+                </span>
+                </span>
+                <span itemprop="startDate" content="2004-01-21T20:00">January 2004</span>
+                <span itemprop="endDate" content="2006-02-21T20:00">February 2006</span>
+              <p itemprop="description">.</p>
+            </article>
+          </section>
+          <section id="education">
+            <h2>Education</h2>
+            <article class="certificate" itemprop="alumniOf" itemscope="" itemtype="http://schema.org/EducationalOrganization">
+              <h3 itemprop="description"><abbr title="Bachelor's of Fine Art">BFA,</abbr> Fine 
+              Art &amp; Design</h3>
+                <span itemprop="name">Kansas City Art Institute</span> |
+                <span itemprop="location" itemscope="">Kansas City, Missouri</span>
+                <span>2014-2018</span>
+                </article>
+            </section>
+            
+        </article>
+        <div class="container">
+          <img src="assets/img/roses-16x9-1200px.jpg" alt="roses" class="h-2" />
+          <section><h2>A small collection of photos about my favorite color</h2><p>This page is an experiment in CSS Grid layout and trying to push myself to combine my art practice with web development and learning new things. Photos taken across Arkansas over the course of 2020 and 2021</p> </section>
+          <img src="assets/img/Blanchard-Springs-208.jpg" alt="creek" class="w-2 h-1"/> 
+          <img src="assets/img/leaves-1.jpg" alt="leaves" class="w-2 h-1"/>
+          <img src="assets/img/texas-summer-sky-1280px.jpg " alt="sky" class="w-3"/>
+          <img src="assets/img/Blanchard-Springs-198-1200px.jpg" alt="waterfall" class="w-3"/>
+          
+           <section> <h3>what's the point?</h3><p>If content is really what makes a good website, then this is an attempt at a more minimal, type-focused design. </p><p>I've seen too many artist websites that are either so minimal they're soulless or so busy they're incomprehensible. This is an attempt to find a middle ground.  </p> </section> 
+          <section class="w-3" ><h2 id="faq">Frequently Asked Questions</h2> 
+          <details> <summary>Where can I see more work like this?</summary>On my website. But I'm not telling you where to find it. </details>
+          <details><summary>Who took these photos?</summary>: ) take a guess : ) </details>
+          </section>
+          <section> <h2 id="contact">Contact</h2>
+            <div id="wufoo-z82t04w0o5r3q5"> Fill out my <a href="https://maddieoco.wufoo.com/forms/z82t04w0o5r3q5">online form</a>. </div> <script type="text/javascript"> var z82t04w0o5r3q5; (function(d, t) { var s = d.createElement(t), options = { 'userName':'maddieoco', 'formHash':'z82t04w0o5r3q5', 'autoResize':true, 'height':'551', 'async':true, 'host':'wufoo.com', 'header':'show', 'ssl':true }; s.src = ('https:' == d.location.protocol ?'https://':'http://') + 'secure.wufoo.com/scripts/embed/form.js'; s.onload = s.onreadystatechange = function() { var rs = this.readyState; if (rs) if (rs != 'complete') if (rs != 'loaded') return; try { z82t04w0o5r3q5 = new WufooForm(); z82t04w0o5r3q5.initialize(options); z82t04w0o5r3q5.display(); } catch (e) { } }; var scr = d.getElementsByTagName(t)[0], par = scr.parentNode; par.insertBefore(s, scr); })(document, 'script'); </script></section>
+                </div>
         
       </main>
     <div class="container">

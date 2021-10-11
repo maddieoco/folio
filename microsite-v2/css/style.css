@@ -9,8 +9,13 @@ html {
   body{
     font-family:'Cutive Mono',monospace;
     margin:0;
-    padding: 0;}
+    padding: 0;
   
+
+  }
+  h1, h2, h3 {
+    font-family:'Libre Baskerville', serif ;
+  }
   
   header{
     
@@ -117,21 +122,4 @@ summary{
     
   }
 
-}
-#hero1{
-    background: rgb(92, 182, 194);
-    background: linear-gradient(130deg, rgb(78, 107, 110) 0%, rgb(119, 185, 179) 50%, rgba(255,253,157,1) 100%);
-
-}
-.overlay-bg-readability{
-    background: rgba(255,253,157,.5);
-    padding:2em;
-}
-.heading-main, h1, h2, h3{
-    font-family: 'Playfair Display','Georgia', 'Times New Roman', Times, serif;
-    font-size: 2.5rem;
-}
-:root{
-    
-   font-family: "Georgia", 'Times New Roman', 'Times', serif;
 }

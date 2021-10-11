@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html charset="utf-8" lang="en"><head>
+        <title> Resume</title>
+        <meta name="author" content="Maddie o'connor">
+        <link rel="stylesheet" href="assets/css/style.css" type="text/css">
+    <link rel="stylesheet" href="https://use.typekit.net/lhz2gzm.css">
+
+    </head>
+    <body>
+          <header>
+    <!-- Main navigation -->
+    <nav class="primary">
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#experience">Experience</a>
+      <a href="#education">Education</a>
+    </nav>
+  </header>
+  <!-- Main -->
+  <main itemscope="" itemtype="http://schema.org/Person">
+    <h1>Madeline (Maddie) R. O'Connor</h1>
+    <section id="about">
+      <img itemprop="image" src="assets/img/maddie-studio-400px.jpg" alt="Your Name"><h2>About Me</h2>
+      <p itemprop="description"> Born and raised in Little Rock, Arkansas, I'm a web and graphic designer and developer with a fine art background. My first passion will always be sewing, fiber arts, and textiles, but I've fallen in love with the possibilities the digital world opens up. I have experience in content management, photography, coding, and graphic design.  </p>
+      
+      
+      <dl>
+        <dt>Name</dt>
+        <dd itemprop="name">
+          <span itemprop="givenName">Maddie </span> <span itemprop="familyName">O'Connor</span>
+        </dd>
+        <dt>Date of birth</dt>
+        <dd itemprop="birthDate"><time datetime="19995-11-27">11/27/1995</time></dd>
+        <dt>Nationality</dt>
+        <dd itemprop="nationality">United States</dd>
+        <dt>Location</dt>
+        <dd itemprop="homeLocation">Arkansas</dd>
+        <dt>Telephone</dt>
+        <dd>
+          <a itemprop="telephone" href="tel:555.555.5555">501.516.0295</a>
+        </dd>
+        <dt>Email</dt>
+        <dd>
+          <a itemprop="email" href="mailto:contact@maddieoconnor.com">contact@maddieoconnor.com</a>
+        </dd>
+        <dt>Address</dt>
+
+        <dd itemprop="address" itemscope="" itemtype="http://schema.org/PostalAddress">
+          <span itemprop="streetAddress">2801 South University</span>
+          <span itemprop="addressLocality">Little Rock</span>
+          <span itemprop="postalCode">72204</span>
+          <span itemprop="addressCountry">USA</span>
+        </dd>
+
+      </dl>
+      
+    </section>
+    <section id="skills">
+      <h2>Skills</h2>
+      <ul>
+        <li class="skill">HTML</li>
+        <li class="skill">PHP</li>
+        <li class="skill">Java</li>
+        <li class="skill">Scss</li>
+      </ul>
+    </section>
+    <section id="experience">
+      <h2>Experience</h2>
+      <!-- current job -->
+      <article class="job">
+        <h3 itemprop="jobTitle">Content Manager</h3>
+        <div itemprop="worksFor" itemscope="" itemtype="http://schema.org/Organization">
+          <span itemprop="name">Tekkii Web Services</span>
+          <span>February 2010 - Present</span>
+          <p itemprop="description">Wrote and edited content for small business clientsâ€™ blogs. Responsible for image editing and optimization, as well as some original photography and videography. Point of contact for existing clients. Wrote documentation for onboarding clients. </p>
+          <span itemprop="location" itemscope="" itemtype="http://schema.org/Place">
+          <a itemprop="url" href="http://link-to-company.com">Company URL</a>
+          <span itemprop="address" itemscope="" itemtype="http://schema.org/PostalAddress">
+          <span itemprop="addressLocality">Lenexa, KS</span>
+          </span>
+          </span>
+        </div>
+      </article>
+      <!-- Previous Jobs - Notice Slightly Different Format-->
+      <article class="job" itemscope="" itemtype="http://schema.org/Event/Job">
+        <h3 itemprop="name">Senior Developer</h3>
+          <span itemprop="location" itemscope="" itemtype="http://schema.org/Place">
+          <span itemprop="name">Company Name 2</span>
+          <a itemprop="url" href="http://link-to-company.com">Company URL</a>
+          <span itemprop="address" itemscope="" itemtype="http://schema.org/PostalAddress">
+            <span itemprop="addressLocality">Anywhere,USA</span>
+          </span>
+          </span>
+          <span itemprop="startDate" content="2006-02-21T20:00">February 2006</span>
+          <span itemprop="endDate" content="2009-02-21T20:00">February 2009</span>
+        <p itemprop="description">Lorem ipsum dolor sit amet, consectetuer adipiscing elit...</p>
+      </article>
+      <article class="job" itemscope="" itemtype="http://schema.org/Event/Job">
+        <h3 itemprop="name">Web Developer</h3>
+          <span itemprop="location" itemscope="" itemtype="http://schema.org/Place">
+          <span itemprop="name">Company Name 2</span>
+          <a itemprop="url" href="http://link-to-company.com">Company URL</a>
+          <span itemprop="address" itemscope="" itemtype="http://schema.org/PostalAddress">
+            <span itemprop="addressLocality">Anywhere, USA</span>
+          </span>
+          </span>
+          <span itemprop="startDate" content="2004-01-21T20:00">January 2004</span>
+          <span itemprop="endDate" content="2006-02-21T20:00">February 2006</span>
+        <p itemprop="description">.</p>
+      </article>
+    </section>
+    <section id="education">
+      <h2>Education</h2>
+      <article class="certificate" itemprop="alumniOf" itemscope="" itemtype="http://schema.org/EducationalOrganization">
+        <h3 itemprop="description"><abbr title="Bachelor's of Fine Art">BFA,</abbr> Fine 
+        Art &amp; Design</h3>
+          <span itemprop="name">Kansas City Art Institute</span> |
+          <span itemprop="location" itemscope="">Kansas City, Missouri</span>
+          <span>2014-2018</span>
+      </article>
+    
+    </section>
+  </main>
+  <!-- Footer -->
+  <footer> 
+    <ul class="related-links">
+        <li><a itemprop="url" rel="me" href="https://github.com/profile">github</a></li>
+        <li><a itemprop="url" rel="me" href="http://linkedin.com/profile">linkedin</a></li>
+        <li><a itemprop="url" href="resume.pdf" download="">pdf resume</a></li>
+      </ul>
+    <div id="copyright">
+     &copy; Maddie O'Connor 2021. All rights reserved.
+    </div>
+  </footer>
+    
+</body></html>
