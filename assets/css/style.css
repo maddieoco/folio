@@ -43,13 +43,7 @@ html {
 
   
  
-.container{
-  display:grid;
-  grid-template-columns:repeat(auto-fill,minmax(200px,1fr));
-  grid-gap:1rem;
-  grid-auto-flow: dense;
-  margin:1rem;
-}
+
 
 .container > div,  {
   padding:1.5rem
@@ -64,60 +58,24 @@ img{
     padding:1rem;
     background-color: rgba(112, 128, 144, 0.5);
   }
-
-summary{
-  font-size: 1.25em;
-  font-weight:bold;
-}
-.w-1{
-  grid-column: span 1;
+.container{
+display:flex;
+flex-direction:column;
+max-width: 900px;
+margin:auto;
 }
 
-.w-2{
-  grid-column: span 2;
-}
-
-.w-3{
-  grid-column: span 3;
-}
-
-.w-4{
-  grid-column: span 4;
-}
-
-.w-5{
-  grid-column: span 5;
-}
-
-.w-6{
-  grid-column: span 6;
-}
-
-.h-1{
-  grid-row: span 1;
-}
-
-.h-2{
-  grid-row: span 2;
-}
-
-.h-3{
-  grid-row: span 3;
-}
-
-.h-4{
-  grid-row: span 4;
-}
 
 @media screen and (max-width: 700px) {
   .container{
     display:flex;
     flex-direction:column;
     gap:1em;
+
     
   }
-
 }
+
 #hero1{
     background: rgb(92, 182, 194);
     background: linear-gradient(130deg, rgb(78, 107, 110) 0%, rgb(119, 185, 179) 50%, rgba(255,253,157,1) 100%);
@@ -129,9 +87,25 @@ summary{
 }
 .heading-main, h1, h2, h3{
     font-family: 'Playfair Display','Georgia', 'Times New Roman', Times, serif;
-    font-size: 2.5rem;
+    font: size 1.25em;;
+}
+#education{
+  font: size 0.75em;
+  background-color:thistle;
 }
 :root{
     
    font-family: "Georgia", 'Times New Roman', 'Times', serif;
+}
+
+.pdf{
+  min-width:500px;
+  max-width: 1000px;
+  min-height:700px;
+  max-height:1500px;
+
+}
+
+.wrapper{
+  padding:auto;
 }
